@@ -19,7 +19,7 @@ Root
       └─ TodoListStatistics
 ```
 
-Если потребуется передать длину массива элементов todo-списка в `TodoListStatistics`, то нужно будет передать входной параметр вниз по иерархии: `TodoList` -> `TodoListFooter` -> `TodoListStatistics`. С использованием provide/inject это можно передать напрямую:
+Если потребуется передать длину массива элементов `TodoList` в `TodoListStatistics`, то нужно будет передать входной параметр вниз по иерархии: `TodoList` -> `TodoListFooter` -> `TodoListStatistics`. С использованием provide/inject это можно передать напрямую:
 
 ```js
 const app = Vue.createApp({})
